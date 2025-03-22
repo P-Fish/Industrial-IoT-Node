@@ -8,7 +8,8 @@
         {
             "label": "BuildRelease",
             "type": "shell",
-            "command": "make release APPNAME=\"${workspaceFolderBasename}\""
+            "command": "make release APPNAME=\"${workspaceFolderBasename}\"",
+            "problemMatcher": []
         },
         {
             "label": "Clean",

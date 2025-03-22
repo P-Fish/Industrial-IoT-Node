@@ -1,7 +1,7 @@
 ########################################################################
 # Makefile settings - Can be customized.
-LIBS = ./libserial.a
-RELEASE_OPTIMIZATION = Os
+LIBS = 
+RELEASE_OPTIMIZATION = O0
 USER_SETTINGS = -I ./ -DYOURNAME="Peter Fischbach"
 
 ########################################################################
